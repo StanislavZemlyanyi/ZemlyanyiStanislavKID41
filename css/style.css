@@ -1,0 +1,12 @@
+:root { font-family: system-ui, Arial, sans-serif; }
+body { margin: 0; line-height: 1.5; }
+.container { max-width: 1000px; margin: 0 auto; padding: 16px; }
+
+.site-header, .site-footer { padding: 16px; background: #f3f3f3; }
+.nav { list-style: none; padding: 0; margin: 8px 0 0; display: flex; gap: 12px; flex-wrap: wrap; }
+.nav a { text-decoration: none; }
+
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 8px; vertical-align: top; }
+thead th { background: #fafafa; }
+caption { text-align: left; font-weight: 600; margin-bottom: 8px; }
